@@ -1,0 +1,7 @@
+a<-c(5,25,13,10,20)
+barplot(Da)
+ma<-c(jan,feb,mar,apr,may)
+ma<-c("jan","feb","mar","apr","may")
+barplot(Da,names.arg=ma,xlab="Mo",ylab="rev")
+barplot(Da,names.arg=ma,xlab="Mo",ylab="rev", border="yellow")
+barplot(Da,names.arg=ma,xlab="Mo",ylab="rev", border="yellow", col="red")
