@@ -1,0 +1,8 @@
+diabetes=read.csv("D:\\folders\\DWHDM\\diabetes.csv")
+relation=lm(diabetes$BloodPressure~diabetes$Age)
+png=(file="linearregression.png")
+plot(diabetes$Age, diabetes$BloodPressure)
+A<- data.frame(diabetes$Age)
+Result<- predict(relation, A)
+print(Result)
+Footer
